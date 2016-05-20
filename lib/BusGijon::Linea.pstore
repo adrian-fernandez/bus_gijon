@@ -1,0 +1,45 @@
+{:	data[o:BusGijon::Linea
+:@idlineaI"1:ET:@descripcionI"&CERILLERO - HOSPITAL DE CABUEÑES;T:
+@tipoI"NORMAL;T:@codigoI"1;T:@colorHexI"00A6D6;To;
+;I"2;T;	I",EL CORTE INGLES - HOSPITAL DE CABUEÑES;T;
+I"NORMAL;T;I"2;T;I"5C145E;To;
+;I"4;T;	I"LAUREDAL - CAMPUS (MESTAS);T;
+I"NORMAL;T;I"4;T;I"144D29;To;
+;I"6;T;	I"4MUSEL-HOSPITAL DE JOVE-POL. PORCEYO Y ZARRACINA;T;
+I"NORMAL;T;I"6;T;I"DE1F82;To;
+;I"10;T;	I"%PUMARÍN - HOSPITAL DE CABUEÑES;T;
+I"NORMAL;T;I"10;T;I"2905A1;To;
+;I"12;T;	I"CERILLERO - CONTRUECES;T;
+I"NORMAL;T;I"12;T;I"F7D917;To;
+;I"14;T;	I"%SOTIELLO - TREMAÑES - INFANZÓN;T;
+I"NORMAL;T;I"14;T;I"8FD400;To;
+;I"15;T;	I"(NUEVO ROCES - HOSPITAL DE CABUEÑES;T;
+I"NORMAL;T;I"15;T;I"FF9B03;To;
+;I"16;T;	I"!ESTACIÓN FERROCARRIL - VEGA;T;
+I"NORMAL;T;I"16;T;I"4F2926;To;
+;I"18;T;	I")NUEVO GIJÓN - HOSPITAL DE CABUEÑES;T;
+I"NORMAL;T;I"18;T;I"F58FC7;To;
+;I"20;T;	I"NUEVO ROCES - SOMIÓ;T;
+I"NORMAL;T;I"20;T;I"910045;To;
+;I"21;T;	I"$HOSPITAL DE JOVE - CAMPA TORRES;T;
+I"NORMAL;T;I"21;T;I"00B052;To;
+;I"24;T;	I""MONTEANA - LA PEDRERA - MAREO;T;
+I"NORMAL;T;I"24;T;I"7D7805;To;
+;I"25;T;	I"TREMAÑES - INFANZÓN;T;
+I"NORMAL;T;I"25;T;I"9E4D0A;To;
+;I"26;T;	I"GIJÓN - DEVA;T;
+I"NORMAL;T;I"26;T;I"C4A6DE;To;
+;I"28;T;	I"ESPECIAL MOLINÓN;T;
+I"NORMAL;T;I"28;T;I"F00A00;To;
+;I"30;T;	I"*PLAZA DEL HUMEDAL - FERIA DE MUESTRAS;T;
+I"NORMAL;T;I"30;T;I"B80B00;To;
+;I"34;T;	I""PZA. HUMEDAL - FATIMA - MUSEL;T;
+I"NORMAL;T;I"34;T;I"828585;To;
+;I"41;T;	I"CERILLERO - PLAZA HUMEDAL;T;
+I"NORMAL;T;I"B1;T;I"004236;To;
+;I"42;T;	I"*NUEVO ROCES - PUMARIN - PLAZA HUMEDAL;T;
+I"NORMAL;T;I"B2;T;I"5C145E;To;
+;I"43;T;	I",MONTEVIL - LLANO - COTO - PLAZA HUMEDAL;T;
+I"NORMAL;T;I"B3;T;I"404040;To;
+;I"44;T;	I",VEGA - VIESQUES - ARENA - PLAZA HUMEDAL;T;
+I"NORMAL;T;I"B4;T;I"002856;T
