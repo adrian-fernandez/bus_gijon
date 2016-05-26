@@ -8,6 +8,10 @@ module BusGijon
 							:online_if_not_local => true
 		}
 
+		def initialize *params
+
+		end
+
 		def self.load_data(opts = {})
 			opts = DEFAULT_OPTS.merge(opts)
 

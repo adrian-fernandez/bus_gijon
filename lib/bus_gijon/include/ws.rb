@@ -10,7 +10,7 @@ module BusGijon
 			'trayecto' => 'http://docs.gijon.es/sw/busgijon.asmx/Trayectos?',
 			'estado_bus' => 'http://docs.gijon.es/sw/busgijon.asmx/estadoBus?psIdBus=',
 			'estado_linea' => 'http://docs.gijon.es/sw/busgijon.asmx/estadoBus?piIdLinea=',
-			'estado_parada' => 'http://docs.gijon.es/sw/busgijon.asmx/estadoParada?piIdParada=',
+			'estado_parada' => 'http://docs.gijon.es/sw/busgijon.asmx/estadoParada?',
 			'info_parada' => 'http://docs.gijon.es/sw/busgijon.asmx/infoParadas?psIdParada=',
 			'estado_cabecera_salida' => 'http://docs.gijon.es/sw/busgijon.asmx/estadoCabeceraSalidas?psIdBus=%1%&psFechaHora=%2%',
 			'salida_cabecera' => 'http://docs.gijon.es/sw/busgijon.asmx/salidasCabeceras'

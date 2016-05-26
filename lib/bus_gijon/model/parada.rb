@@ -4,6 +4,10 @@ module BusGijon
 
 		attr_accessor :idparada, :descripcion, :utmx, :utmy
 
+		def get_estado_parada
+			estado = EstadoParada.new(self.idparada)
+		end
+
 	private
 
 		def self.get_paradas()

@@ -3,18 +3,33 @@ module BusGijon
 		require_relative './../include/classes.rb'
 
 		attr_accessor :idautobus, :idlinea, :idtrayecto, :minutos, :distancia, :utmx, :utmy, :horaactualizacion, :fechaactualizacion
+		attr_accessor :idparada
+
+		def initialize id_parada = nil
+			self.idparada = id_parada
+
+			load_data_from_ws unless self.idparada.nil? or self.idparada.blank?
+		end
 
 	private
 
-		def self.get_estado_parada(id_parada)
-			ClientAPI.get(WS::URL.fetch('estado_parada') + id_parada)
+		def get_estado_parada
+			_url 	   = WS::URL.fetch('estado_parada')
+			parameters = {:piIdParada => self.idparada}
+
+			ClientAPI.get(_url, parameters)
 		end
 
-		def self.load_data_from_ws
-			hash = Hash.from_xml(EstadoParada.get_trayectos).fetch('autobuses').fetch('autobus')
-			estado_parada = AuxMethods.get_data_from_array(EstadoParada, hash)
+		def load_data_from_ws
+			_hash_data = Hash.from_xml(get_estado_parada).fetch("autobuses", {}).fetch("autobus", {})
+			load_values(_hash_data)
+		end
 
-			return estado_parada, :online
+		def load_values hash_data
+			hash_data.keys.each do |key|
+				attrib = "#{key}="
+				self.send(attrib, hash_data.fetch(key))
+			end
 		end
 
 	end
