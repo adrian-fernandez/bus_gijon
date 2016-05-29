@@ -8,8 +8,8 @@ module BusGijon
 
 		def self.get_estado_cabecera_salida(id_parada, fecha_hora)
 			url = WS::URL.fetch('estado_cabecera_salida')
-			url = url.gsub("%1", id_parada)
-			url = url.gsub("%2", fecha_hora)
+			url = url.gsub('%1', id_parada)
+			url = url.gsub('%2', fecha_hora)
 
 			ClientAPI.get(url)
 		end

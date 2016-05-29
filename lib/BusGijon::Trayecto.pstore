@@ -1,129 +1,0 @@
-{:	data[{o:BusGijon::Trayecto:@idtrayectoI"1:ET:@idlineaI"1;T:@descripcionI"+L-1. CERILLERO - HOSPITAL DE CABUEÑES;T:@idcabeceraI"180;T:@direccionI"1;T:@destinoI"HOSP. CABUENES;To;;I"2;T;	I"1;T;
-I"+L-1. HOSPITAL DE CABUEÑES - CERILLERO;T;I"34;T;I"2;T;I"CERILLERU;To;;I"6;T;	I"1;T;
-I"+L-1. HOSPITAL DE CABUEÑES - CERILLERO;T;I"34;T;I"2;T;I"CERILLERU;To;;I"7;T;	I"1;T;
-I" L-1. CERILLERO - LAS MESTAS;T;I"180;T;I"1;T;I"LES MESTES;To;;I"3;T;	I"2;T;
-I"1L-2. EL CORTE INGLES - HOSPITAL DE CABUEÑES;T;I"538;T;I"1;T;I"HOSP. CABUENES;To;;I"4;T;	I"2;T;
-I"1L-2. HOSPITAL DE CABUEÑES - EL CORTE INGLES;T;I"34;T;I"2;T;I"EL CORTE INGLES;To;;I"5;T;	I"2;T;
-I"2L-2. ROCES-EL CORTE INGLES-HOSPITAL CABUEÑES;T;I"175;T;I"1;T;I"HOSP. CABUENES;To;;I"6;T;	I"2;T;
-I"2L-2. HOSPITAL CABUEÑES-EL CORTE INGLES-ROCES;T;I"34;T;I"2;T;I"
-ROCES;To;;I"3;T;	I"4;T;
-I"L-4. LAUREDAL - MESTAS;T;I"660;T;I"1;T;I"LES MESTES;To;;I"4;T;	I"4;T;
-I"L-4. MESTAS - LAUREDAL;T;I"93;T;I"2;T;I"EL LAUREDAL;To;;I"5;T;	I"4;T;
-I"4L-4. LAUREDAL - VIESQUES - CAMPUS UNIVERSITARIO;T;I"660;T;I"1;T;I"CAMPUS UNIV.;To;;I"6;T;	I"4;T;
-I"4L-4. CAMPUS UNIVERSITARIO - VIESQUES - LAUREDAL;T;I"26;T;I"2;T;I"EL LAUREDAL;To;;I"7;T;	I"4;T;
-I"L-4. VIESQUES - LAUREDAL;T;I"597;T;I"2;T;I"EL LAUREDAL;To;;I"8;T;	I"4;T;
-I"L-4. LAUREDAL - VIESQUES;T;I"660;T;I"1;T;I"VIESQUES;To;;I"9;T;	I"4;T;
-I"$L-4. LAUREDAL - MESTAS - RASTRO;T;I"660;T;I"1;T;I"RASTRU;To;;I"10;T;	I"4;T;
-I"$L-4. RASTRO - MESTAS - LAUREDAL;T;I"707;T;I"2;T;I"EL LAUREDAL;To;;I"991;T;	I"4;T;
-I"$L-4. LAUREDAL - MESTAS - RASTRO;T;I"660;T;I"1;T;I"RASTRU;To;;I"992;T;	I"4;T;
-I"L-4. LAUREDAL - MESTAS;T;I"660;T;I"1;T;I"LES MESTES;To;;I"1;T;	I"6;T;
-I"6L-6. MUSEL-HOSP. DE JOVE-POL. PORCEYO Y ZARRACINA;T;I"2;T;I"1;T;I"POLIG. PORCEYO;To;;I"2;T;	I"6;T;
-I"6L-6. POL. PORCEYO Y ZARRACINA-HOSP. DE JOVE-MUSEL;T;I"606;T;I"2;T;I"HOSP. XOVE-MUSEL;To;;I"3;T;	I"6;T;
-I"(L-6. MUSEL-HOSPITAL DE JOVE-ALCAMPO;T;I"2;T;I"1;T;I"ALCAMPO;To;;I"4;T;	I"6;T;
-I"(L-6. ALCAMPO-HOSPITAL DE JOVE-MUSEL;T;I"266;T;I"2;T;I"HOSP. XOVE-MUSEL;To;;I"5;T;	I"6;T;
-I"-L-6. MUSEL-HOSPITAL DE JOVE-PLAZA EUROPA;T;I"2;T;I"1;T;I"PLAZA EUROPA;To;;I"6;T;	I"6;T;
-I"-L-6. PLAZA EUROPA-HOSPITAL DE JOVE-MUSEL;T;I"131;T;I"2;T;I"HOSP. XOVE-MUSEL;To;;I"7;T;	I"6;T;
-I",L-6. CERILLERO-POL. PORCEYO Y ZARRACINA;T;I"110;T;I"1;T;I"POLIG. PORCEYO;To;;I"8;T;	I"6;T;
-I".L-6. CONTINENTAL-POL. PORCEYO Y ZARRACINA;T;I"46;T;I"1;T;I"POLIG. PORCEYO;To;;I"9;T;	I"6;T;
-I"1L-6. POL. PORCEYO Y ZARRACINA - PZA. HUMEDAL;T;I"606;T;I"2;T;I"PLAZA HUMEDAL;To;;I"10;T;	I"6;T;
-I"2L-6. MUSEL-CERILLERO-POL. PORCEYO Y ZARRACINA;T;I"2;T;I"1;T;I"POLIG. PORCEYO;To;;I"11;T;	I"6;T;
-I"&L-6. SEDES-HOSPITAL DE JOVE-MUSEL;T;I"157;T;I"2;T;I"HOSP. XOVE-MUSEL;To;;I"12;T;	I"6;T;
-I"2L-6. MUSEL - HOSPITAL DE JOVE - GOTA DE LECHE;T;I"2;T;I"1;T;I"GOTA DE LECHE;To;;I"13;T;	I"6;T;
-I")L-6. MUSEL-HOSPITAL DE JOVE- PORCEYO;T;I"2;T;I"1;T;I"PORCEYO;To;;I"14;T;	I"6;T;
-I"(L-6. PORCEYO-HOSPITAL DE JOVE-MUSEL;T;I"723;T;I"2;T;I"HOSP. XOVE-MUSEL;To;;I"15;T;	I"6;T;
-I"!L-6. PORCEYO - PLAZA HUMEDAL;T;I"723;T;I"2;T;I"PLAZA HUMEDAL;To;;I"1;T;	I"10;T;
-I"L-10. PUMARÍN - SOMIÓ;T;I"67;T;I"1;T;I"
-SOMIO;To;;I"2;T;	I"10;T;
-I"L-10. SOMIÓ - PUMARÍN;T;I"394;T;I"2;T;I"PUMARIN;To;;I"3;T;	I"10;T;
-I"L-10. PUMARÍN - CANDENAL;T;I"67;T;I"1;T;I"SOMIO(CANDENAL);To;;I"4;T;	I"10;T;
-I"L-10. CANDENAL - PUMARÍN;T;I"507;T;I"2;T;I"PUMARIN;To;;I"5;T;	I"10;T;
-I"*L-10. PUMARIN - HOSPITAL DE CABUEÑES;T;I"67;T;I"1;T;I"HOSP. CABUENES;To;;I"6;T;	I"10;T;
-I"*L-10. HOSPITAL DE CABUEÑES - PUMARIN;T;I"34;T;I"2;T;I"PUMARIN;To;;I"7;T;	I"10;T;
-I" L-10. PUMARÍN - LAS MESTAS;T;I"67;T;I"1;T;I"LES MESTES;To;;I"1;T;	I"12;T;
-I"!L-12. CERILLERO - CONTRUECES;T;I"110;T;I"1;T;I"CONTRUECES;To;;I"2;T;	I"12;T;
-I"!L-12. CONTRUECES - CERILLERO;T;I"121;T;I"2;T;I"CERILLERU;To;;I"8;T;	I"12;T;
-I")L-12. MUSEL - CERILLERO - CONTRUECES;T;I"2;T;I"1;T;I"CONTRUECES;To;;I"9;T;	I"12;T;
-I")L-12. CONTRUECES - MUSEL - CERILLERO;T;I"121;T;I"2;T;I"CERILLERU;To;;I"1;T;	I"14;T;
-I"=L-14. SOTIELLO - PL. SOM.- TREMAÑES - GARAYA - INFANZON;T;I"405;T;I"1;T;I"INFANZON;To;;I"2;T;	I"14;T;
-I"8L-14. INFANZON - TREMAÑES - POL. SOMOTE - SOTIELLO;T;I"378;T;I"2;T;I"SOTIELLO ;To;;I"3;T;	I"14;T;
-I"7L-14. SOTIELLO - POL. SOMONTE - TREMAÑES - GARAYA;T;I"405;T;I"1;T;I"ALVAREZ GARAYA;To;;I"4;T;	I"14;T;
-I"6L-14. CONTINENTAL - GARAYA - TREMAÑES - SOTIELLO;T;I"46;T;I"2;T;I"SOTIELLO;To;;I"11;T;	I"15;T;
-I".L-15. NUEVO ROCES - HOSPITAL DE CABUEÑES;T;I"669;T;I"1;T;I"HOSP. CABUENES;To;;I"12;T;	I"15;T;
-I".L-15. HOSPITAL DE CABUEÑES - NUEVO ROCES;T;I"34;T;I"2;T;I"NUEVO ROCES;To;;I"13;T;	I"15;T;
-I"!L-15. NUEVO ROCES - VIESQUES;T;I"669;T;I"1;T;I"VIESQUES;To;;I"14;T;	I"15;T;
-I"!L-15. VIESQUES - NUEVO ROCES;T;I"542;T;I"2;T;I"NUEVO ROCES;To;;I"15;T;	I"15;T;
-I"(L-15. NUEVO ROCES - PZA. DEL CARMEN;T;I"669;T;I"1;T;I"PLAZA EL CARMEN;To;;I"16;T;	I"15;T;
-I"$L-15. PZA. EUROPA - NUEVO ROCES;T;I"131;T;I"2;T;I"NUEVO ROCES;To;;I"17;T;	I"15;T;
-I"7L-15. NUEVO ROCES - HOSPITAL DE CABUEÑES (desvio);T;I"669;T;I"1;T;I"HOSP. CABUENES;To;;I"18;T;	I"15;T;
-I"*L-15. NUEVO ROCES - VIESQUES (desvio);T;I"669;T;I"1;T;I"VIESQUES;To;;I"19;T;	I"15;T;
-I"L-15. NUEVO ROCES - CODEMA;T;I"669;T;I"1;T;I"CODEMA;To;;I"23;T;	I"16;T;
-I"'L-16. ESTACIÓN FERROCARRIL - VEGA;T;I"663;T;I"1;T;I"	VEGA;To;;I"24;T;	I"16;T;
-I"'L-16. VEGA - ESTACIÓN FERROCARRIL;T;I"312;T;I"2;T;I"EST. FERROCARRIL;To;;I"25;T;	I"16;T;
-I"4L-16. ESTACIÓN FERROCARRIL - VEGA - SAN MARTIN;T;I"663;T;I"1;T;I"SAMARTIN;To;;I"26;T;	I"16;T;
-I"4L-16. SAN MARTIN - VEGA - ESTACIÓN FERROCARRIL;T;I"317;T;I"2;T;I"EST. FERROCARRIL;To;;I"27;T;	I"16;T;
-I"6L-16. ESTACION DE FERROCARRIL - VEGA (Vegapresas);T;I"663;T;I"1;T;I"	VEGA;To;;I"28;T;	I"16;T;
-I"8L-16. VEGA - ESTACIÓN FERROCARRIL (por Vegapresas);T;I"312;T;I"2;T;I"EST. FERROCARRIL;To;;I"29;T;	I"16;T;
-I"3L-16. UNIVERSIDAD LABORAL - AVDA. LLANO - VEGA;T;I"36;T;I"1;T;I"	VEGA;To;;I"30;T;	I"16;T;
-I"3L-16. VEGA - AVDA. LLANO - UNIVERSIDAD LABORAL;T;I"312;T;I"2;T;I"UNIV. LABORAL;To;;I"31;T;	I"16;T;
-I"6L-16. VEGA-AV. LLANO-UNIVERSIDAD LABORAL (desvio);T;I"312;T;I"2;T;I"UNIV. LABORAL;To;;I"1;T;	I"18;T;
-I"/L-18. NUEVO GIJÓN - HOSPITAL DE CABUEÑES;T;I"191;T;I"1;T;I"HOSP. CABUENES;To;;I"2;T;	I"18;T;
-I"/L-18. HOSPITAL DE CABUEÑES - NUEVO GIJÓN;T;I"34;T;I"2;T;I"NUEVO GIJON;To;;I"1;T;	I"20;T;
-I")L-20. NUEVO ROCES - SOMIÓ (LA PIPA);T;I"739;T;I"1;T;I"SOMIO(LA PIPA);To;;I"2;T;	I"20;T;
-I")L-20. SOMIÓ (LA PIPA) - NUEVO ROCES;T;I"240;T;I"2;T;I"NUEVO ROCES;To;;I"3;T;	I"20;T;
-I"'L-20. CONTRUECES - SOMIO (LA PIPA);T;I"122;T;I"1;T;I"SOMIO(LA PIPA);To;;I"4;T;	I"20;T;
-I"(L-20. SOMIÓ (LA PIPA) - CONTRUECES;T;I"240;T;I"2;T;I"CONTRUECES;To;;I"5;T;	I"21;T;
-I"*L-21. HOSPITAL DE JOVE - CAMPA TORRES;T;I"270;T;I"1;T;I"CAMPA TORRES;To;;I"6;T;	I"21;T;
-I"*L-21. CAMPA TORRES - HOSPITAL DE JOVE;T;I"337;T;I"2;T;I"HOSPITAL DE XOVE;To;;I"7;T;	I"21;T;
-I",L-21. CTRA. CAMPA TORRES - CAMPA TORRES;T;I"712;T;I"1;T;I"CAMPA TORRES;To;;I"8;T;	I"21;T;
-I"%L-21. CAMPA TORRES - CTRA. CAMPA;T;I"337;T;I"2;T;I"CTRA. AS-19;To;;I"1;T;	I"24;T;
-I" L-24. MONTEANA - LA PEDRERA;T;I"421;T;I"1;T;I"LA PEDRERA;To;;I"2;T;	I"24;T;
-I" L-24. LA PEDRERA - MONTEANA;T;I"360;T;I"2;T;I"MONTIANA;To;;I"3;T;	I"24;T;
-I"L-24. MONTEANA - MAREO;T;I"421;T;I"1;T;I"
-MAREO;To;;I"4;T;	I"24;T;
-I"L-24. MAREO - MONTEANA;T;I"569;T;I"2;T;I"MONTIANA;To;;I"5;T;	I"24;T;
-I".L-24. SAN ANDRÉS - MONTEANA - LA PEDRERA;T;I"351;T;I"1;T;I"LA PEDRERA;To;;I"6;T;	I"24;T;
-I".L-24. LA PEDRERA - MONTEANA - SAN ANDRÉS;T;I"360;T;I"2;T;I"SAN ANDRES;To;;I"7;T;	I"24;T;
-I"(L-24. SAN ANDRES - MONTEANA - MAREO;T;I"351;T;I"1;T;I"
-MAREO;To;;I"8;T;	I"24;T;
-I"(L-24. MAREO - MONTEANA - SAN ANDRES;T;I"569;T;I"2;T;I"SAN ANDRES;To;;I"9;T;	I"24;T;
-I"!L-24. MONTEANA - PZA. EUROPA;T;I"421;T;I"1;T;I"PLAZA EUROPA;To;;I"12;T;	I"24;T;
-I"!L-24. PZA. EUROPA - MONTEANA;T;I"131;T;I"2;T;I"MONTIANA;To;;I"14;T;	I"24;T;
-I"5L-24. MAREO - LA PEDRERA - MONTEANA - SAN ANDRES;T;I"569;T;I"2;T;I"SAN ANDRES ;To;;I"15;T;	I"24;T;
-I"(L-24. MAREO - LA PEDRERA - MONTEANA;T;I"569;T;I"2;T;I"MONTEANA;To;;I"1;T;	I"25;T;
-I"L-25. TREMAÑES - INFANZON;T;I"719;T;I"1;T;I"INFANZON;To;;I"2;T;	I"25;T;
-I"L-25. INFANZON - TREMAÑES;T;I"378;T;I"2;T;I"TREMANES;To;;I"3;T;	I"25;T;
-I")L-25. TREMAÑES - INFANZON - LA OLLA;T;I"719;T;I"1;T;I"LA OLLA;To;;I"4;T;	I"25;T;
-I")L-25. LA OLLA - INFANZON - TREMAÑES;T;I"467;T;I"2;T;I"TREMANES ;To;;I"5;T;	I"25;T;
-I"1L-25. TREMAÑES - INFANZON - CEMENTERIO DEVA;T;I"719;T;I"1;T;I"CEMENTERIU DEVA;To;;I"6;T;	I"25;T;
-I"1L-25. CEMENTERIO DEVA - INFANZON - TREMAÑES;T;I"368;T;I"2;T;I"TREMANES;To;;I"7;T;	I"25;T;
-I"%L-25. ALVAREZ GARAYA - TREMAÑES;T;I"99;T;I"2;T;I"TREMANES;To;;I"8;T;	I"25;T;
-I"2L-25. CONTINETAL - ALVAREZ GARAYA - TREMAÑES;T;I"46;T;I"2;T;I"TREMANES;To;;I"9;T;	I"25;T;
-I"*L-25. SOTIELLO - TREMAÑES - INFANZON;T;I"405;T;I"1;T;I"INFANZON;To;;I"10;T;	I"25;T;
-I"*L-25. INFANZON - TREMAÑES - SOTIELLO;T;I"378;T;I"2;T;I"SOTIELLO;To;;I"11;T;	I"25;T;
-I"7L-25. SOTIELLO - TREM - INFANZON - CEMENTERIO DEVA;T;I"405;T;I"1;T;I"CEMENTERIU DEVA;To;;I"12;T;	I"25;T;
-I"1L-25. CEMENTERIO DEVA - TREMAÑES - SOTIELLO;T;I"368;T;I"2;T;I"SOTIELLO;To;;I"13;T;	I"25;T;
-I"0L-25. SOTIELLO - TREMAÑES - ALVAREZ GARAYA;T;I"405;T;I"1;T;I"ALVAREZ GARAYA;To;;I"14;T;	I"25;T;
-I"1L-25. ALV AREZ GARAYA - TREMAÑES - SOTIELLO;T;I"99;T;I"2;T;I"SOTIELLO;To;;I"1;T;	I"26;T;
-I"%L-26. GIJÓN - LAS MESTAS - DEVA;T;I"17;T;I"1;T;I"	DEVA;To;;I"2;T;	I"26;T;
-I"%L-26. DEVA - LAS MESTAS - GIJÓN;T;I"389;T;I"2;T;I"PLAZA HUMEDAL;To;;I"1;T;	I"28;T;
-I"L-28. HUMEDAL - MOLINÓN;T;I"76;T;I"1;T;I"MOLINON;To;;I"2;T;	I"28;T;
-I"&L-28. MOLINÓN - PLAZA DEL CARMEN;T;I"504;T;I"2;T;I"PLAZA EL CARMEN;To;;I"3;T;	I"28;T;
-I"L-28. MOLINÓN - CERILLERO;T;I"504;T;I"2;T;I"CERILLERU;To;;I"4;T;	I"28;T;
-I"L-28. MOLINÓN - PUMARÍN;T;I"504;T;I"2;T;I"PUMARIN;To;;I"5;T;	I"28;T;
-I" L-28. MOLINÓN - CONTRUECES;T;I"504;T;I"2;T;I"CONTRUECES;To;;I"6;T;	I"28;T;
-I"'L-28. MOLINON - CONTRUECES - ROCES;T;I"504;T;I"2;T;I"
-ROCES;To;;I"7;T;	I"28;T;
-I"-L-28. MOLINON - CONTRUECES - NUEVO ROCES;T;I"504;T;I"2;T;I"NUEVO ROCES;To;;I"1;T;	I"30;T;
-I"0L-30. PLAZA DEL HUMEDAL - FERIA DE MUESTRAS;T;I"76;T;I"1;T;I"FERIA MUESTRES;To;;I"2;T;	I"30;T;
-I"0L-30. FERIA DE MUESTRAS - PLAZA DEL HUMEDAL;T;I"504;T;I"2;T;I"PLAZA HUMEDAL;To;;I"1;T;	I"34;T;
-I"(L-34. PZA. HUMEDAL - FATIMA - MUSEL;T;I"51;T;I"1;T;I"
-MUSEL;To;;I"2;T;	I"34;T;
-I")L-34. MUSEL - FATIMA - GOTA DE LECHE;T;I"2;T;I"2;T;I"GOTA DE LECHE;To;;I"1;T;	I"41;T;
-I"$L-B1. CERILLERO - GOTA DE LECHE;T;I"180;T;I"1;T;I"GOTA DE LECHE;To;;I"2;T;	I"41;T;
-I"$L-B1. PLAZA HUMEDAL - CERILLERO;T;I"51;T;I"2;T;I"CERILLERU;To;;I"1;T;	I"42;T;
-I"0L-B2. NUEVO ROCES - PUMARIN - PLAZA HUMEDAL;T;I"669;T;I"1;T;I"PLAZA HUMEDAL;To;;I"2;T;	I"42;T;
-I"0L-B2. PLAZA HUMEDAL - PUMARIN - NUEVO ROCES;T;I"51;T;I"2;T;I"NUEVO ROCES;To;;I"1;T;	I"43;T;
-I"2L-B3. MONTEVIL - LLANO - COTO - PLAZA HUMEDAL;T;I"364;T;I"1;T;I"PLAZA HUMEDAL;To;;I"2;T;	I"43;T;
-I"2L-B3. PLAZA HUMEDAL - COTO - LLANO - MONTEVIL;T;I"51;T;I"2;T;I"MONTEVIL;To;;I"1;T;	I"44;T;
-I"2L-B4. VEGA - VIESQUES - ARENA - PLAZA HUMEDAL;T;I"314;T;I"1;T;I"PLAZA HUMEDAL;To;;I"2;T;	I"44;T;
-I"2L-B4. PLAZA HUMEDAL - ARENA - VIESQUES - VEGA;T;I"51;T;I"2;T;I"	VEGA;T

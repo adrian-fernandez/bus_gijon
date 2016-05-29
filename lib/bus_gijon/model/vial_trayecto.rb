@@ -12,7 +12,7 @@ module BusGijon
 
 	private
 
-		def self.get_vial_trayectos()
+		def self.get_vial_trayectos
 			ClientAPI.get(WS::URL.fetch('vial_trayecto'))
 		end
 

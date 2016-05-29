@@ -1,0 +1,1298 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>
+  Class: BusGijon::BusGijon
+  
+    &mdash; Documentation by YARD 0.8.7.6
+  
+</title>
+
+  <link rel="stylesheet" href="../css/style.css" type="text/css" charset="utf-8" />
+
+  <link rel="stylesheet" href="../css/common.css" type="text/css" charset="utf-8" />
+
+<script type="text/javascript" charset="utf-8">
+  hasFrames = window.top.frames.main ? true : false;
+  relpath = '../';
+  framesUrl = "../frames.html#!BusGijon/BusGijon.html";
+</script>
+
+
+  <script type="text/javascript" charset="utf-8" src="../js/jquery.js"></script>
+
+  <script type="text/javascript" charset="utf-8" src="../js/app.js"></script>
+
+
+  </head>
+  <body>
+    <div id="header">
+      <div id="menu">
+  
+    <a href="../_index.html">Index (B)</a> &raquo;
+    <span class='title'><span class='object_link'><a href="../BusGijon.html" title="BusGijon (module)">BusGijon</a></span></span>
+     &raquo; 
+    <span class="title">BusGijon</span>
+  
+
+  <div class="noframes"><span class="title">(</span><a href="." target="_top">no frames</a><span class="title">)</span></div>
+</div>
+
+      <div id="search">
+  
+    <a class="full_list_link" id="class_list_link"
+        href="../class_list.html">
+      Class List
+    </a>
+  
+    <a class="full_list_link" id="method_list_link"
+        href="../method_list.html">
+      Method List
+    </a>
+  
+    <a class="full_list_link" id="file_list_link"
+        href="../file_list.html">
+      File List
+    </a>
+  
+</div>
+      <div class="clear"></div>
+    </div>
+
+    <iframe id="search_frame"></iframe>
+
+    <div id="content"><h1>Class: BusGijon::BusGijon
+  
+  
+  
+</h1>
+
+<dl class="box">
+  
+    <dt class="r1">Inherits:</dt>
+    <dd class="r1">
+      <span class="inheritName">Object</span>
+      
+        <ul class="fullTree">
+          <li>Object</li>
+          
+            <li class="next">BusGijon::BusGijon</li>
+          
+        </ul>
+        <a href="#" class="inheritanceTree">show all</a>
+      
+      </dd>
+    
+  
+  
+    
+  
+    
+  
+  
+  
+    <dt class="r2 last">Defined in:</dt>
+    <dd class="r2 last">bus_gijon.rb</dd>
+  
+</dl>
+<div class="clear"></div>
+
+<h2>Overview</h2><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Author:</p>
+<ul class="author">
+  
+    <li>
+      
+      
+      
+      
+        
+        <div class='inline'>
+<p>Adrián Fernández López <a href="http://www.adrian-fernandez.net" target="_parent" title="Página web">Página web</a>
+<a href="mailto:adrian@adrian-fernandez.net" target="_parent" title="E-Mail">E-Mail</a></p>
+</div>
+      
+    </li>
+  
+    <li>
+      
+      
+      
+      
+        
+        <div class='inline'>
+<p><a href="https://github.com/adrian-fernandez/bus_gijon" target="_parent" title="Código fuente en GitHub">Código fuente en GitHub</a></p>
+</div>
+      
+    </li>
+  
+</ul>
+<p class="tag_title">Since:</p>
+<ul class="since">
+  
+    <li>
+      
+      
+      
+      
+        
+        <div class='inline'>
+<p>1.0.0</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div>
+
+
+
+
+
+
+  
+    <h2>
+      Instance Method Summary
+      <small>(<a href="#" class="summary_toggle">collapse</a>)</small>
+    </h2>
+
+    <ul class="summary">
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#horarios-instance_method" title="#horarios (instance method)">- (Array&lt;Horario&gt;) <strong>horarios</strong> </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Carga los datos sobre el servicio de autobuses.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#initialize-instance_method" title="#initialize (instance method)">- (BusGijon) <strong>initialize</strong>(opts = {}) </a>
+    
+
+    
+  </span>
+  
+  
+    <span class="note title constructor">constructor</span>
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Constructor de la clase.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#lineas-instance_method" title="#lineas (instance method)">- (Array&lt;Linea&gt;) <strong>lineas</strong> </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Carga los datos sobre las líneas del servicio de autobuses.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#llegadas-instance_method" title="#llegadas (instance method)">- (Array&lt;Llegada&gt;) <strong>llegadas</strong> </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Carga los datos sobre las llegadas de los autobuses.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#load_data-instance_method" title="#load_data (instance method)">- (Object) <strong>load_data</strong>(opts = {}) </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>return [void].</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#paradas-instance_method" title="#paradas (instance method)">- (Array&lt;Parada&gt;) <strong>paradas</strong> </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Carga los datos sobre las paradas de autobús.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#paradatrayectos-instance_method" title="#paradatrayectos (instance method)">- (Array&lt;ParadaTrayecto&gt;) <strong>paradatrayectos</strong> </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Carga los datos sobre las paradas de los trayectos de los autobuses.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#salidacabeceras-instance_method" title="#salidacabeceras (instance method)">- (Array&lt;SalidaCabecera&gt;) <strong>salidacabeceras</strong> </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Carga los datos sobre las cabeceras de salida de los autobuses.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#trayectos-instance_method" title="#trayectos (instance method)">- (Array&lt;Trayecto&gt;) <strong>trayectos</strong> </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Carga los datos sobre los trayectos de los autobuses.</p>
+</div></span>
+  
+</li>
+
+      
+    </ul>
+  
+
+<div id="constructor_details" class="method_details_list">
+  <h2>Constructor Details</h2>
+  
+    <div class="method_details first">
+  <h3 class="signature first" id="initialize-instance_method">
+  
+    - (<tt><span class='object_link'><a href="" title="BusGijon::BusGijon (class)">BusGijon</a></span></tt>) <strong>initialize</strong>(opts = {}) 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+  <div class="note notetag">
+    <strong>Note:</strong>
+    <div class='inline'>
+<p><a href=":load_data">opts</a> =&gt; :static carga los datos:
+<span class='object_link'><a href="Horario.html" title="BusGijon::Horario (class)">Horario</a></span> <span class='object_link'><a href="Linea.html" title="BusGijon::Linea (class)">Linea</a></span> <span class='object_link'><a href="Llegada.html" title="BusGijon::Llegada (class)">Llegada</a></span>
+<span class='object_link'><a href="Parada.html" title="BusGijon::Parada (class)">Parada</a></span> <span class='object_link'><a href="Trayecto.html" title="BusGijon::Trayecto (class)">Trayecto</a></span> <span class='object_link'><a href="ParadaTrayecto.html" title="BusGijon::ParadaTrayecto (class)">ParadaTrayecto</a></span></p>
+</div>
+  </div>
+
+  <div class="note notetag">
+    <strong>Note:</strong>
+    <div class='inline'>
+<p><a href=":load_data">opts</a> =&gt; :dynamic carga los datos:</p>
+</div>
+  </div>
+
+  <div class="note notetag">
+    <strong>Note:</strong>
+    <div class='inline'>
+<p><a href=":load_data">opts</a> =&gt; :all carga tanto datos estáticos como
+dinámicos</p>
+</div>
+  </div>
+
+
+<p>Constructor de la clase. Inicializa la clase y carga todos los datos return
+[void]</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  <p class="tag_title">Parameters:</p>
+<ul class="param">
+  
+    <li>
+      
+        <span class='name'>opts</span>
+      
+      
+        <span class='type'>(<tt>Hash</tt>)</span>
+      
+      
+        <em class="default">(defaults to: <tt>{}</tt>)</em>
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>opciones de configuración para la clase</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+  
+    
+    
+    <p class="tag_title">Options Hash (<tt>opts</tt>):</p>
+    <ul class="option">
+      
+        <li>
+          <span class="name">:online</span>
+          <span class="type">(<tt>Boolean</tt>)</span>
+          <span class="default">
+            
+          </span>
+          
+            &mdash; <div class='inline'>
+<p>Obtener la información del servicio web del Ayuntamiento de Gijón. En caso
+de ser false tratará de cargar una copia local de los datos</p>
+</div>
+          
+        </li>
+      
+        <li>
+          <span class="name">:save</span>
+          <span class="type">(<tt>Boolean</tt>)</span>
+          <span class="default">
+            
+          </span>
+          
+            &mdash; <div class='inline'>
+<p>Guardar una copia local de los datos una vez obtenidos</p>
+</div>
+          
+        </li>
+      
+        <li>
+          <span class="name">:online_if_not_local</span>
+          <span class="type">(<tt>Boolean</tt>)</span>
+          <span class="default">
+            
+          </span>
+          
+            &mdash; <div class='inline'>
+<p>Ignorar la opción :online = false y obtener los datos del servicio web
+cuando no se dispone de una copia local.</p>
+</div>
+          
+        </li>
+      
+        <li>
+          <span class="name">:load_data</span>
+          <span class="type">(<tt>Symbol</tt>)</span>
+          <span class="default">
+            
+          </span>
+          
+            &mdash; <div class='inline'>
+<p>Especifica el tipo de datos que se quieren cargar inicialmente  (:static |
+:dynamic | :all)</p>
+</div>
+          
+        </li>
+      
+    </ul>
+  
+
+<p class="tag_title">Raises:</p>
+<ul class="raise">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt><span class='object_link'><a href="LocalDataNotFoundException.html" title="BusGijon::LocalDataNotFoundException (class)">LocalDataNotFoundException</a></span></tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>Cuando <a href=":online">opts</a>=false, <a
+href=":online_if_not_local">opts</a>=false y no se dispone de una copia
+local de los datos</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+  <p class="tag_title">See Also:</p>
+  <ul class="see">
+    
+      <li>GenericBusGijonModel#self.default_opts</li>
+    
+  </ul>
+<p class="tag_title">Since:</p>
+<ul class="since">
+  
+    <li>
+      
+      
+      
+      
+        
+        <div class='inline'>
+<p>1.0.0</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+42
+43
+44
+45
+46
+47
+48</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'bus_gijon.rb', line 42</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_initialize'>initialize</span><span class='lparen'>(</span><span class='id identifier rubyid_opts'>opts</span> <span class='op'>=</span> <span class='lbrace'>{</span><span class='rbrace'>}</span><span class='rparen'>)</span>
+	<span class='ivar'>@opts</span> <span class='op'>=</span> <span class='const'>GenericBusGijonModel</span><span class='op'>::</span><span class='const'>DEFAULT_OPTS</span><span class='period'>.</span><span class='id identifier rubyid_merge'>merge</span><span class='lparen'>(</span><span class='id identifier rubyid_opts'>opts</span><span class='rparen'>)</span>
+
+	<span class='kw'>if</span> <span class='ivar'>@opts</span><span class='period'>.</span><span class='id identifier rubyid_fetch'>fetch</span><span class='lparen'>(</span><span class='symbol'>:load_data</span><span class='comma'>,</span> <span class='kw'>false</span><span class='rparen'>)</span>
+		<span class='id identifier rubyid_load_data'>load_data</span><span class='lparen'>(</span><span class='rparen'>)</span>
+	<span class='kw'>end</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+  
+</div>
+
+
+  <div id="instance_method_details" class="method_details_list">
+    <h2>Instance Method Details</h2>
+
+    
+      <div class="method_details first">
+  <h3 class="signature first" id="horarios-instance_method">
+  
+    - (<tt>Array&lt;<span class='object_link'><a href="Horario.html" title="BusGijon::Horario (class)">Horario</a></span>&gt;</tt>) <strong>horarios</strong> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Carga los datos sobre el servicio de autobuses.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>Array&lt;<span class='object_link'><a href="Horario.html" title="BusGijon::Horario (class)">Horario</a></span>&gt;</tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+  <p class="tag_title">See Also:</p>
+  <ul class="see">
+    
+      <li><span class='object_link'><a href="Horario.html" title="BusGijon::Horario (class)">Horario</a></span></li>
+    
+  </ul>
+<p class="tag_title">Since:</p>
+<ul class="since">
+  
+    <li>
+      
+      
+      
+      
+        
+        <div class='inline'>
+<p>1.0.0</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+83
+84
+85
+86</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'bus_gijon.rb', line 83</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_horarios'>horarios</span>
+	<span class='ivar'>@_horarios</span> <span class='op'>=</span> <span class='const'>Horario</span><span class='period'>.</span><span class='id identifier rubyid_load_data'>load_data</span> <span class='kw'>if</span> <span class='ivar'>@_horarios</span><span class='period'>.</span><span class='id identifier rubyid_nil?'>nil?</span>
+	<span class='kw'>return</span> <span class='ivar'>@_horarios</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="lineas-instance_method">
+  
+    - (<tt>Array&lt;<span class='object_link'><a href="Linea.html" title="BusGijon::Linea (class)">Linea</a></span>&gt;</tt>) <strong>lineas</strong> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Carga los datos sobre las líneas del servicio de autobuses.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>Array&lt;<span class='object_link'><a href="Linea.html" title="BusGijon::Linea (class)">Linea</a></span>&gt;</tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+  <p class="tag_title">See Also:</p>
+  <ul class="see">
+    
+      <li><span class='object_link'><a href="Linea.html" title="BusGijon::Linea (class)">Linea</a></span></li>
+    
+  </ul>
+<p class="tag_title">Since:</p>
+<ul class="since">
+  
+    <li>
+      
+      
+      
+      
+        
+        <div class='inline'>
+<p>1.0.0</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+93
+94
+95
+96</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'bus_gijon.rb', line 93</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_lineas'>lineas</span>
+	<span class='ivar'>@_lineas</span> <span class='op'>=</span> <span class='const'>Linea</span><span class='period'>.</span><span class='id identifier rubyid_load_data'>load_data</span> <span class='kw'>if</span> <span class='ivar'>@_lineas</span><span class='period'>.</span><span class='id identifier rubyid_nil?'>nil?</span>
+	<span class='kw'>return</span> <span class='ivar'>@_lineas</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="llegadas-instance_method">
+  
+    - (<tt>Array&lt;<span class='object_link'><a href="Llegada.html" title="BusGijon::Llegada (class)">Llegada</a></span>&gt;</tt>) <strong>llegadas</strong> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Carga los datos sobre las llegadas de los autobuses.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>Array&lt;<span class='object_link'><a href="Llegada.html" title="BusGijon::Llegada (class)">Llegada</a></span>&gt;</tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+  <p class="tag_title">See Also:</p>
+  <ul class="see">
+    
+      <li><span class='object_link'><a href="Llegada.html" title="BusGijon::Llegada (class)">Llegada</a></span></li>
+    
+  </ul>
+<p class="tag_title">Since:</p>
+<ul class="since">
+  
+    <li>
+      
+      
+      
+      
+        
+        <div class='inline'>
+<p>1.0.0</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+103
+104
+105
+106</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'bus_gijon.rb', line 103</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_llegadas'>llegadas</span>
+	<span class='ivar'>@_llegadas</span> <span class='op'>=</span> <span class='const'>Llegada</span><span class='period'>.</span><span class='id identifier rubyid_load_data'>load_data</span> <span class='kw'>if</span> <span class='ivar'>@_llegadas</span><span class='period'>.</span><span class='id identifier rubyid_nil?'>nil?</span>
+	<span class='kw'>return</span> <span class='ivar'>@_llegadas</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="load_data-instance_method">
+  
+    - (<tt>Object</tt>) <strong>load_data</strong>(opts = {}) 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>return [void]</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  <p class="tag_title">Parameters:</p>
+<ul class="param">
+  
+    <li>
+      
+        <span class='name'>opts</span>
+      
+      
+        <span class='type'>(<tt>Hash</tt>)</span>
+      
+      
+        <em class="default">(defaults to: <tt>{}</tt>)</em>
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>Opciones de carga de datos (@see #initialize)</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+<p class="tag_title">Raises:</p>
+<ul class="raise">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt><span class='object_link'><a href="RequiredParamMissingException.html" title="BusGijon::RequiredParamMissingException (class)">RequiredParamMissingException</a></span></tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>si el parámetro opts no tiene un valor :load_data válido (@see #initialize)</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+  <p class="tag_title">See Also:</p>
+  <ul class="see">
+    
+      <li>GenericBusGijonModel#self.default_opts</li>
+    
+  </ul>
+<p class="tag_title">Since:</p>
+<ul class="since">
+  
+    <li>
+      
+      
+      
+      
+        
+        <div class='inline'>
+<p>1.0.0</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'bus_gijon.rb', line 59</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_load_data'>load_data</span><span class='lparen'>(</span><span class='id identifier rubyid_opts'>opts</span> <span class='op'>=</span> <span class='lbrace'>{</span><span class='rbrace'>}</span><span class='rparen'>)</span>
+	<span class='ivar'>@opts</span> <span class='op'>=</span> <span class='const'>GenericBusGijonModel</span><span class='op'>::</span><span class='const'>DEFAULT_OPTS</span><span class='period'>.</span><span class='id identifier rubyid_merge'>merge</span><span class='lparen'>(</span><span class='id identifier rubyid_opts'>opts</span><span class='rparen'>)</span>
+
+	<span class='kw'>case</span> <span class='ivar'>@opts</span><span class='period'>.</span><span class='id identifier rubyid_fetch'>fetch</span><span class='lparen'>(</span><span class='symbol'>:load_data</span><span class='comma'>,</span> <span class='kw'>nil</span><span class='rparen'>)</span>
+		<span class='kw'>when</span> <span class='symbol'>:static</span>
+			<span class='id identifier rubyid_load_static_data'>load_static_data</span><span class='lparen'>(</span><span class='ivar'>@opts</span><span class='rparen'>)</span>
+		<span class='kw'>when</span> <span class='symbol'>:dynamic</span>
+			<span class='id identifier rubyid_load_dynamic_data'>load_dynamic_data</span><span class='lparen'>(</span><span class='ivar'>@opts</span><span class='rparen'>)</span>
+		<span class='kw'>when</span> <span class='symbol'>:all</span>
+			<span class='id identifier rubyid_load_static_data'>load_static_data</span><span class='lparen'>(</span><span class='ivar'>@opts</span><span class='rparen'>)</span>
+			<span class='id identifier rubyid_load_dynamic_data'>load_dynamic_data</span><span class='lparen'>(</span><span class='ivar'>@opts</span><span class='rparen'>)</span>
+		<span class='kw'>else</span>
+			<span class='id identifier rubyid_raise'>raise</span> <span class='const'>RequiredParamMissingException</span><span class='period'>.</span><span class='id identifier rubyid_new'>new</span><span class='lparen'>(</span><span class='symbol'>:load_data</span><span class='rparen'>)</span>
+	<span class='kw'>end</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="paradas-instance_method">
+  
+    - (<tt>Array&lt;<span class='object_link'><a href="Parada.html" title="BusGijon::Parada (class)">Parada</a></span>&gt;</tt>) <strong>paradas</strong> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Carga los datos sobre las paradas de autobús.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>Array&lt;<span class='object_link'><a href="Parada.html" title="BusGijon::Parada (class)">Parada</a></span>&gt;</tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+  <p class="tag_title">See Also:</p>
+  <ul class="see">
+    
+      <li><span class='object_link'><a href="Parada.html" title="BusGijon::Parada (class)">Parada</a></span></li>
+    
+  </ul>
+<p class="tag_title">Since:</p>
+<ul class="since">
+  
+    <li>
+      
+      
+      
+      
+        
+        <div class='inline'>
+<p>1.0.0</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+113
+114
+115
+116</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'bus_gijon.rb', line 113</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_paradas'>paradas</span>
+	<span class='ivar'>@_paradas</span> <span class='op'>=</span> <span class='const'>Parada</span><span class='period'>.</span><span class='id identifier rubyid_load_data'>load_data</span> <span class='kw'>if</span> <span class='ivar'>@_paradas</span><span class='period'>.</span><span class='id identifier rubyid_nil?'>nil?</span>
+	<span class='kw'>return</span> <span class='ivar'>@_paradas</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="paradatrayectos-instance_method">
+  
+    - (<tt>Array&lt;<span class='object_link'><a href="ParadaTrayecto.html" title="BusGijon::ParadaTrayecto (class)">ParadaTrayecto</a></span>&gt;</tt>) <strong>paradatrayectos</strong> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Carga los datos sobre las paradas de los trayectos de los autobuses.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>Array&lt;<span class='object_link'><a href="ParadaTrayecto.html" title="BusGijon::ParadaTrayecto (class)">ParadaTrayecto</a></span>&gt;</tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+  <p class="tag_title">See Also:</p>
+  <ul class="see">
+    
+      <li><span class='object_link'><a href="ParadaTrayecto.html" title="BusGijon::ParadaTrayecto (class)">ParadaTrayecto</a></span></li>
+    
+  </ul>
+<p class="tag_title">Since:</p>
+<ul class="since">
+  
+    <li>
+      
+      
+      
+      
+        
+        <div class='inline'>
+<p>1.0.0</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+123
+124
+125
+126</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'bus_gijon.rb', line 123</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_paradatrayectos'>paradatrayectos</span>
+	<span class='ivar'>@_paradatrayectos</span> <span class='op'>=</span> <span class='const'>ParadaTrayecto</span><span class='period'>.</span><span class='id identifier rubyid_load_data'>load_data</span> <span class='kw'>if</span> <span class='ivar'>@_paradatrayectos</span><span class='period'>.</span><span class='id identifier rubyid_nil?'>nil?</span>
+	<span class='kw'>return</span> <span class='ivar'>@_paradatrayectos</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="salidacabeceras-instance_method">
+  
+    - (<tt>Array&lt;<span class='object_link'><a href="SalidaCabecera.html" title="BusGijon::SalidaCabecera (class)">SalidaCabecera</a></span>&gt;</tt>) <strong>salidacabeceras</strong> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Carga los datos sobre las cabeceras de salida de los autobuses.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>Array&lt;<span class='object_link'><a href="SalidaCabecera.html" title="BusGijon::SalidaCabecera (class)">SalidaCabecera</a></span>&gt;</tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+  <p class="tag_title">See Also:</p>
+  <ul class="see">
+    
+      <li><span class='object_link'><a href="SalidaCabecera.html" title="BusGijon::SalidaCabecera (class)">SalidaCabecera</a></span></li>
+    
+  </ul>
+<p class="tag_title">Since:</p>
+<ul class="since">
+  
+    <li>
+      
+      
+      
+      
+        
+        <div class='inline'>
+<p>1.0.0</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+133
+134
+135
+136</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'bus_gijon.rb', line 133</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_salidacabeceras'>salidacabeceras</span>
+	<span class='ivar'>@_salidacabeceras</span> <span class='op'>=</span> <span class='const'>SalidaCabecera</span><span class='period'>.</span><span class='id identifier rubyid_load_data'>load_data</span> <span class='kw'>if</span> <span class='ivar'>@_salidacabeceras</span><span class='period'>.</span><span class='id identifier rubyid_nil?'>nil?</span>
+	<span class='kw'>return</span> <span class='ivar'>@_salidacabeceras</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="trayectos-instance_method">
+  
+    - (<tt>Array&lt;<span class='object_link'><a href="Trayecto.html" title="BusGijon::Trayecto (class)">Trayecto</a></span>&gt;</tt>) <strong>trayectos</strong> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Carga los datos sobre los trayectos de los autobuses</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>Array&lt;<span class='object_link'><a href="Trayecto.html" title="BusGijon::Trayecto (class)">Trayecto</a></span>&gt;</tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+  <p class="tag_title">See Also:</p>
+  <ul class="see">
+    
+      <li><span class='object_link'><a href="Trayecto.html" title="BusGijon::Trayecto (class)">Trayecto</a></span></li>
+    
+  </ul>
+<p class="tag_title">Since:</p>
+<ul class="since">
+  
+    <li>
+      
+      
+      
+      
+        
+        <div class='inline'>
+<p>1.0.0</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+143
+144
+145
+146</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'bus_gijon.rb', line 143</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_trayectos'>trayectos</span>
+	<span class='ivar'>@_trayectos</span> <span class='op'>=</span> <span class='const'>Trayecto</span><span class='period'>.</span><span class='id identifier rubyid_load_data'>load_data</span> <span class='kw'>if</span> <span class='ivar'>@_trayectos</span><span class='period'>.</span><span class='id identifier rubyid_nil?'>nil?</span>
+	<span class='kw'>return</span> <span class='ivar'>@_trayectos</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+  </div>
+
+</div>
+
+    <div id="footer">
+  Generated on Sun May 29 11:52:00 2016 by
+  <a href="http://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
+  0.8.7.6 (ruby-2.2.4).
+</div>
+
+  </body>
+</html>

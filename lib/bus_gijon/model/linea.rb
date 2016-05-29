@@ -6,7 +6,7 @@ module BusGijon
 
 	private
 
-		def self.get_lineas()
+		def self.get_lineas
 			ClientAPI.get(WS::URL.fetch('linea'))
 		end
 

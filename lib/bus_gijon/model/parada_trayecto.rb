@@ -6,7 +6,7 @@ module BusGijon
 
 	private
 
-		def self.get_paradas_trayecto()
+		def self.get_paradas_trayecto
 			ClientAPI.get(WS::URL.fetch('parada_trayecto'))
 		end
 

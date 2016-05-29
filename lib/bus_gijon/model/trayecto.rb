@@ -6,7 +6,7 @@ module BusGijon
 
 	private
 
-		def self.get_trayectos()
+		def self.get_trayectos
 			ClientAPI.get(WS::URL.fetch('trayecto'))
 		end
 

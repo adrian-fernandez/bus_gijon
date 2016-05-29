@@ -6,7 +6,7 @@ module BusGijon
 
 	private
 
-		def self.get_posiciones()
+		def self.get_posiciones
 			ClientAPI.get(WS::URL.fetch('posicion'))
 		end
 
